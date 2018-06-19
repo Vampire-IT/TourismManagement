@@ -1,0 +1,84 @@
+/* CSS Document */
+@import url(style.css);
+#main_topDiv{
+	background:url(../images/top.gif) no-repeat left top #4D7600;
+}
+#main_topMenuDiv{
+	height:64px;
+	text-align:right;
+	padding-right:45px;
+	line-height:64px;
+	color:#fff;
+}
+#main_topMenuDiv a{
+	color:#fff;
+	text-decoration:underline;
+}
+#main_topLineDiv{
+	height:7px;
+	background:url(../images/top_line.gif) repeat-x;
+}
+#main_leftDiv{
+	
+	width:181px;
+	float:left;
+	border-right:1px solid #4d7600;
+	background:#FAFCFC;
+}
+#main_menuTopButton{
+	height:38px;
+}
+#main_menuTopButton img{
+	float:left;
+}
+#main_menuTopButton div{
+	height:38px;
+	float:left;
+	width:90px;
+	background:url(../images/mtb.gif) repeat-x;
+}
+.main_sysTitle{
+	height:30px;
+	background:url(../images/sysbg.gif) repeat-x 0 -1px;
+	line-height:22px;
+	font-size: 12px;
+	font-weight: bold;
+	color: #3E6444;
+}
+.main_sysTitle img{
+	margin:0 5px;
+}
+#main_leftMenuListDiv{
+	position:relative;
+}
+#main_leftMenuIconDiv{
+	width:31px;
+	background:url(../images/mun_bg.gif) 0px 0px repeat-y;
+	position:absolute;
+	left:0;
+	top:0;
+	height:100px;
+}
+
+#main_leftMenuListUl li{
+	padding-left:31px;
+	line-height:31px;
+	cursor:default;
+}
+#main_leftMenuListUl .active{
+	background:url(../images/f1_03.gif) left center no-repeat;
+}
+#main_leftMenuListUl .over{
+	background:url(../images/f1_02.gif) left center no-repeat;
+}
+/**/
+#main_frameDiv{
+	background:url(../images/main_top_bg.gif) top repeat-x;
+	margin-left:182px;
+	position:relative;
+}
+#mainIFrame{
+	position:absolute;
+	left:0px;
+	top:0px;
+}

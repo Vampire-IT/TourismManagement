@@ -1,0 +1,44 @@
+/* CSS Document */
+html,body{
+	height:100%;
+}
+*{
+	font:14px "微软雅黑";
+}
+body,form,h1,h2,h3,ul,li,div{	margin: 0; padding:0;}
+td,th,div {
+	word-break:break-all;
+	word-wrap:break-word;
+}
+b,strong {
+	color:#666600;
+}
+li{
+  list-style-type:none; 
+}
+
+input[type=button]{
+ background-color: #F1F8B4;
+ padding:3px 12px;
+}
+
+input[type=reset]{
+ background-color: #F1F8B4;
+ padding:3px 12px;
+}
+
+h1 { color:#171B16; font-size:130%; font-weight:bold; }
+h2 { color:#171B16; font-size:115%; font-weight:bold; }
+h3 { color:#171B16; font-size:100%; font-weight:bold;}
+
+a:link { font-size: 14px; color: #000000; text-decoration: none;  }
+a:visited{ font-size: 14px; color: #000000; text-decoration: none; }
+a:hover {color: #f00;}
+a img { border-style:none; }
+input { border: 1px solid #ababab; }
+
+.clear{
+	float:none;
+	clear:both;
+}
+

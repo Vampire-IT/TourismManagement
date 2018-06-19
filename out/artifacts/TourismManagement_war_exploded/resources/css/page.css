@@ -1,0 +1,141 @@
+/* CSS Document */
+@import url(style.css);
+body{
+	padding:5px;
+}
+.toolbar{
+	background:url(../images/toolbar.png) 1px 1px repeat-x;
+	height:36px;
+	line-height:36px;
+	border:1px solid #ccc;
+	margin-bottom:5px;
+}
+.toolbar li{
+	background:url(../images/tbar_split.png) right center no-repeat;
+	padding-right:1px;
+	float:right;
+	position:relative;
+}
+.toolbar li a{
+	line-height:34px;
+	float:left;
+	padding-left:30px;
+	padding-right:10px;
+}
+.toolbar li img{
+	height:22px;
+	position:absolute;
+	left:5px;
+	top:7px;
+}
+.grid{
+	background:#C0DE98;
+	width:100%;
+}
+.grid th,.grid td{
+	padding:3px;
+	height:20px;
+	line-height:20px;
+	text-align:center;
+}
+.grid th{
+	background:url(../images/thbg.gif) bottom repeat-x #fff;
+	
+	color:#660;
+	font-weight:bold;
+}
+.grid tr{
+	background:#FCFEF0;
+	line-height:5px;
+}
+.grid .even{
+	background:#FAFFDE;
+}
+.grid .active{
+	background:#D9FA98;
+}
+
+.navBar{
+	background:url(../images/toolbar.png) 1px 1px repeat-x;
+	height:36px;
+	line-height:36px;
+	border:1px solid #ccc;
+	margin-bottom:5px;
+	text-indent:7px;
+}
+.navBar2{
+	background:url(../images/toolbar.png) 1px 1px repeat-x;
+	height:36px;
+	line-height:36px;
+	border:1px solid #ccc;
+	text-indent:7px;
+	text-align: center;
+	margin-top: 5px;
+}
+.form{
+	background:#CBD8AC;
+	width:100%;
+}
+.form td,.form th{
+	padding:3px;
+}
+.form th{
+	background:url(../images/thbg.gif) bottom repeat-x #fff;
+
+	color:#660;
+	font-weight:bold;
+}
+.form tr{
+	background:#fff;
+	height:30px;
+}
+.form .title{
+	background:#F4FDEE;
+	text-align:right;
+}
+.form2{
+	background:#CBD8AC;
+	width:90%;
+}
+.form2 td,.form2 th{
+	padding:3px;
+}
+.form2 th{
+	background:url(../images/thbg.gif) bottom repeat-x #fff;
+
+	color:#660;
+	font-weight:bold;
+}
+.form2 tr{
+	background:#fff;
+	height:30px;
+}
+.form2 .title{
+	background:#F4FDEE;
+	text-align:right;
+}
+
+.buttonLine{
+	margin:5px 0;
+	padding:3px;
+	text-align:center;
+	background:#f1f3f8;
+	border:3px solid #f1f1f1;
+}
+.buttonStyle{
+	margin:0px 0;
+	padding:0px;
+	text-align:center;
+	border:0px solid #f1f1f1;
+}
+.buttonLine3{
+	margin:5px 0;
+	margin-left:100px;
+	padding:3px;
+	text-align:center;
+	background:#f1f3f8;
+	border:3px solid #f1f1f1;
+}
+.grey{
+	color:#ccc;
+}
